@@ -1,6 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-using OakTech.FoodVanSlackJob.Clients;
+﻿using OakTech.FoodVanSlackJob.Clients;
 using Refit;
 
 var webhookPath = args[0];
@@ -31,7 +29,7 @@ var result = await slackClient.PostMessageAsync(webhookPath, message);
 
 if (result.IsSuccessStatusCode)
 {
-    Console.WriteLine("Message successfully sent");
+    Console.WriteLine("Message successfully sent.");
 }
 else
 {
