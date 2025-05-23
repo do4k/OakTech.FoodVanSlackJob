@@ -6,5 +6,5 @@ namespace OakTech.FoodVanSlackJob.Clients;
 public interface IFoodVanApiClient
 {
     [Get("/")]
-    public Task<List<FoodVan>> GetFoodVansAsync();
+    public Task<IEnumerable<FoodVan>> GetFoodVansAsync();
 }

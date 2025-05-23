@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OakTech.FoodVanSlackJob", "OakTech.FoodVanSlackJob\OakTech.FoodVanSlackJob.csproj", "{19F30534-F46F-4F44-A2A0-6977542B13AF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OakTech.FoodVanSlackJob", "OakTech.FoodVanSlackJob.csproj", "{19F30534-F46F-4F44-A2A0-6977542B13AF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
